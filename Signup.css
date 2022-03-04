@@ -1,0 +1,35 @@
+#Signup{
+    min-height: 30vh;
+}
+.Signup__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Signup__rightitem img{
+    height: 30rem;
+}
+.Signup__leftitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.Signup__leftitem h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--dark-color);
+}
+.Signup__leftitem p {
+    font-size: 1.8rem;
+    opacity: 0.9;
+    color: var(--secondary-color);
+}
+.signup__btn {
+    padding: 1.5rem 2.5rem;
+    font-size: 1.8rem;
+    margin: 1rem 1rem;
+}
